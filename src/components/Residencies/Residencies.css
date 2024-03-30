@@ -79,3 +79,13 @@
 .r-buttons > :nth-child(2):hover {
   transform: scale(1.1);
 }
+
+@media (max-width : 768px){
+  .r-head{
+    align-items: center;
+  }
+
+  .r-buttons{
+    position: initial;
+  }
+}
